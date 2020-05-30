@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Be On Time</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>About BOT - Be On Time</title>
+    <link rel="stylesheet" href="../css/about_BOT.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -16,7 +16,7 @@
       
       <div class="nav-header">
         <a class="nav-logo" href="#header">
-          <img src="images/logo.png">
+          <img src="../images/logo.png">
         </a>
       </div>
       <input type="checkbox" id="nav-check">
@@ -29,23 +29,33 @@
       </div>
       
       <div class="nav-links ml-auto" id="nav-links">
-        <a href="#" onclick="hidemenu();" class="active">HOME</a>
-        <a href="pages/offers.html" onclick="hidemenu();">OFFERS</a>
-        <a href="pages/about_BOT.html" onclick="hidemenu();">ABOUT <b>BOT</b></a>
-        <a href="pages/our_team.html" onclick="hidemenu();">OUR TEAM</a>
-        <a href="pages/contact_us.html" onclick="hidemenu();">CONTACT US</a>
+        <a href="../index.html" onclick="hidemenu();" >HOME</a>
+        <a href="../pages/offers.html" onclick="hidemenu();">OFFERS</a>
+        <a href="../pages/about_BOT.html" onclick="hidemenu();" class="active">ABOUT <b>BOT</b></a>
+        <a href="../pages/our_team.html" onclick="hidemenu();">OUR TEAM</a>
+        <a href="../pages/contact_us.html" onclick="hidemenu();">CONTACT US</a>
       </div>
       <a onclick="hidemenu()" id="hiddenbtn"></a>
       
     </div>
   </section>
 <!---------------------------------------Landing page --------------------------------------------------->
+
 <section id="main_sect">
   <div class="container text-center">
-    <h1>Be On Time</h1>
-    <img src="images/logo.png">
-    <p>A real time gaming experience in which you will be amazed and earn at the same time.</p>
-    <button class="btn" onclick="appalert()">Get Our Android/IOS App</button>
+    <h1>About BOT</h1>
+    <p>We are pretty much sure that soon we all will digitalize ourselves. In this making, we have to introduce a fresh gaming experience to change the concept of virtual gaming into real time. And in this way you will achieve something real in your hand. <br>
+      <br>The system will include these following modules:</p>
+      <ul>
+        <li><span>Login Information:</span> You can login with their name (username), email, cell number and password. You can also login with your Facebook account.</li>
+        <li><span>Access:</span> The system will fetch the information about location and notification access.</li>
+        <li><span>Destination:</span> You will receive auto-generated time by entering your destionation.</li>
+        <li><span>Arrival:</span> After successful arrival on your destions, you will receive some BOT points.</li>
+        <li><span>BOT Points:</span> These points can be redeemed on different platforms provided by BOT collabed companies.</li>
+        <li><span>Unsuccessful Arrival:</span> If you arrived before or after the time provided by BOT, you will receive the notification of try again.</li>
+      </ul>
+
+      <button class="btn" onclick="appalert()">Get Our Android/IOS App</button>
   </div>
 </section>
 

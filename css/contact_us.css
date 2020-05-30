@@ -3,6 +3,7 @@
   margin: 0;
   text-decoration: none;
 }
+
 body{
   background: #000 !important;
 }
@@ -13,7 +14,7 @@ body{
   width: 100%;
   top: 0px;
   z-index: 99!important;
-  background: #333;
+  background: #111;
   position: fixed;
 }
 
@@ -58,7 +59,6 @@ body{
   display: none;
 }
 
-
 #hiddenbtn{
   width: 50%;
   height: 100vh;
@@ -95,12 +95,11 @@ body{
     position: absolute;
     display: inline-block;
     width: 220px;
-    background-color: #333;
     height: 0px;
     overflow-y: hidden;
     top: 60px;
     right: 0px;
-    background: #333;
+    background: #111;
     transition: 0.75s ease;
   }
 
@@ -141,16 +140,52 @@ body{
   text-decoration: underline #DC171D dashed;
 }
 
-#main_sect .container img{
-  width: 60vh;
+.form_element{
+  border-radius: 6px;
+  padding: 10px;
+  margin: 15px;
+  background: #111;
+  color: #fff;
+  font-size: 20px;
 }
 
-#main_sect .container p{
-  color: #fff;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+.contact-info .fa{
   font-size: 20px;
+  margin: 10px;
+  color: #FF69B4;
+  font-weight: bold;
+  transition: transform .6s ease;
+}
+
+.contact-info{
+  text-align: left;
+}
+
+.contact-info .fa-facebook-f{
+  font-size: 25px;
+  color: #FF69B4;
+  border: 2px solid #FF69B4;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 0 15px;
+}
+
+.contact-info .fa-instagram{
+  font-size: 25px;
+  color: #FF69B4;
+  border: 2px solid #FF69B4;
+  padding: 5px 8px;
+  border-radius: 8px;
+  margin: 0 15px;
+}
+
+.contact-info .fa-whatsapp{
+  font-size: 25px;
+  color: #FF69B4;
+  border: 2px solid #FF69B4;
+  padding: 5px 8px;
+  border-radius: 8px;
+  margin: 0 15px;
 }
 
 #main_sect .container .btn{
@@ -159,6 +194,7 @@ body{
   border-radius: 26px;
   color: #fff;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 #main_sect .container .btn:hover{
@@ -166,10 +202,15 @@ body{
   color: #DC171D;
 }
 
+
+
 #footer{
   margin-top: 60px;
   border-top: 1px solid #333;
   bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
 }
 
 #footer .container h6{
