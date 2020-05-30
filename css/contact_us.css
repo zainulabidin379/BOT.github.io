@@ -49,7 +49,7 @@ body{
 
 .nav .nav-links a:hover {
   border-radius: 8px;
-  color: #DC171D;
+  color: #7f0000;
   box-shadow: 0 0 8px #fff,
               0 0 8px #fff;
 
@@ -89,7 +89,7 @@ body{
     display: block;
     width: 32px;
     height: 12px;
-    border-top: 2.5px solid #DC171D;
+    border-top: 2.5px solid #7f0000;
   }
   .nav .nav-links {
     position: absolute;
@@ -137,7 +137,33 @@ body{
   margin-bottom: 50px;
   font-size: 60px;
   font-weight: 900;
-  text-decoration: underline #DC171D dashed;
+  text-decoration: underline #7f0000 dashed;
+}
+.contact-form{
+  padding: 15px;
+}
+
+.form-control{
+  border: none !important;
+  background: #111!important ;
+}
+
+::placeholder{
+  color: #a7a7a7 !important;
+}
+
+#main_sect .container .btn-sbmt{
+  background: #7f0000;
+  padding: 10px;
+  border-radius: 26px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+}
+
+#main_sect .container .btn-sbmt:hover{
+  background: #fff;
+  color: #7f0000;
 }
 
 .form_element{
@@ -149,47 +175,39 @@ body{
   font-size: 20px;
 }
 
-.contact-info .fa{
-  font-size: 20px;
-  margin: 10px;
-  color: #DC171D;
-  font-weight: bold;
-  transition: transform .6s ease;
-}
-
-.contact-info{
-  text-align: left;
-}
-
-.contact-info .fa-facebook-f{
+#main_sect .container .fa-facebook-f{
   font-size: 25px;
-  color: #DC171D;
-  border: 2px solid #DC171D;
+  color: #7f0000;
+  border: 2px solid #7f0000;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 0 15px;
 }
 
-.contact-info .fa-instagram{
+#main_sect .container .fa-instagram{
   font-size: 25px;
-  color: #DC171D;
-  border: 2px solid #DC171D;
+  color: #7f0000;
+  border: 2px solid #7f0000;
   padding: 5px 8px;
   border-radius: 8px;
   margin: 0 15px;
 }
 
-.contact-info .fa-whatsapp{
+#main_sect .container .fa-whatsapp{
   font-size: 25px;
-  color: #DC171D;
-  border: 2px solid #DC171D;
+  color: #7f0000;
+  border: 2px solid #7f0000;
   padding: 5px 8px;
   border-radius: 8px;
   margin: 0 15px;
+}
+
+#main_sect .container .map{
+  margin-top: 15px;
 }
 
 #main_sect .container .btn{
-  background: #DC171D;
+  background: #7f0000;
   padding: 15px;
   border-radius: 26px;
   color: #fff;
@@ -199,7 +217,7 @@ body{
 
 #main_sect .container .btn:hover{
   background: #fff;
-  color: #DC171D;
+  color: #7f0000;
 }
 
 

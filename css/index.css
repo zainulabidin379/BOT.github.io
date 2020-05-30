@@ -48,7 +48,7 @@ body{
 
 .nav .nav-links a:hover {
   border-radius: 8px;
-  color: #DC171D;
+  color: #7f0000;
   box-shadow: 0 0 8px #fff,
               0 0 8px #fff;
 
@@ -89,7 +89,7 @@ body{
     display: block;
     width: 32px;
     height: 12px;
-    border-top: 2.5px solid #DC171D;
+    border-top: 2.5px solid #7f0000;
   }
   .nav .nav-links {
     position: absolute;
@@ -138,7 +138,7 @@ body{
   margin-bottom: 50px;
   font-size: 60px;
   font-weight: 900;
-  text-decoration: underline #DC171D dashed;
+  text-decoration: underline #7f0000 dashed;
 }
 
 #main_sect .container img{
@@ -149,25 +149,87 @@ body{
     width: 75vw;
   }
 }
-#main_sect .container p{
-  color: #fff;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  font-size: 20px;
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-container{
+  width: 100vw;
+}
+.ticker-wrap {
+  
+  position: relative;
+  width: 100%;
+  left: 0!important;
+  overflow: hidden;
+  height: 3rem;
+  background-color: rgba(10,10,10, 0.9); 
+  padding-left: 100%;
+  box-sizing: content-box;
 }
 
+.ticker {
+
+    display: inline-block;
+    height: 3rem;
+    left: 0;
+    line-height: 3rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+  }
+.ticker__item p{
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+.map{
+  margin-top: 20px;
+}
 #main_sect .container .btn{
-  background: #DC171D;
+  background: #7f0000;
   padding: 15px;
   border-radius: 26px;
   color: #fff;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 #main_sect .container .btn:hover{
   background: #fff;
-  color: #DC171D;
+  color: #7f0000;
 }
 
 #footer{
@@ -176,7 +238,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: relative;
 }
 
 #footer .container h6{

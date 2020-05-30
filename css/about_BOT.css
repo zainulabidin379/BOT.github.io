@@ -48,7 +48,7 @@ body{
 
 .nav .nav-links a:hover {
   border-radius: 8px;
-  color: #DC171D;
+  color: #7f0000;
   box-shadow: 0 0 8px #fff,
               0 0 8px #fff;
 
@@ -88,7 +88,7 @@ body{
     display: block;
     width: 32px;
     height: 12px;
-    border-top: 2.5px solid #DC171D;
+    border-top: 2.5px solid #7f0000;
   }
   .nav .nav-links {
     position: absolute;
@@ -136,14 +136,21 @@ body{
   margin-bottom: 50px;
   font-size: 60px;
   font-weight: 900;
-  text-decoration: underline #DC171D dashed;
+  text-decoration: underline #7f0000 dashed;
+}
+
+.main-div{
+  border: 1px solid #7f0000;
+  background: #111;
+  border-radius: 10px;
+  padding: 0 20px;
 }
 
 
 #main_sect .container p{
   color: #fff;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -151,25 +158,27 @@ body{
   color: #fff;
   text-align: left;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 #main_sect .container ul li span{
-  color: #DC171D;
+  color: #7f0000;
   font-weight: 700;
 }
 
 #main_sect .container .btn{
-  background: #DC171D;
+  background: #7f0000;
   padding: 15px;
   border-radius: 26px;
   color: #fff;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 #main_sect .container .btn:hover{
   background: #fff;
-  color: #DC171D;
+  color: #7f0000;
 }
 
 #footer{

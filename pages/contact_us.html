@@ -45,22 +45,35 @@
   <div class="container text-center">
     <h1>Contact Us</h1>
     <div class="row">
-        <div class="col-md-6 contact-info">
-          <div class="form_element"><i class="fa fa-map-marker"></i>HITEC University, Taxila</div>
+      <div class="col-md-6">
+        <form class="contact-form" method="post" action="mail_handler.php">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+          </div>
 
-          <div class="form_element"><i class="fa fa-phone"></i>+923337950844</div>
+          <div class="form-group">
+            <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+          </div>
 
-          <div class="form_element"><i class="fa fa-envelope"></i>beontime008@gmail.com</div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" required=>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" name="message" row="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" name="submit" target="_blank" class="btn-sbmt" >Send Message</button>
+        </form>
 
           <div class="form_element text-center">
             <a href="https://www.facebook.com/JD-Kharal-134214960608091/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/jd_kharal/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://api.whatsapp.com/send?phone=+923337950844" target="_blank"><i class="fab fa-whatsapp"></i></a>
           </div>
-        </div>
-
-      <div class="col-md-6">
-          <div id="googleMap" style="width:100%;height:300px;"></div>
+      </div>
+        
+      <div class="col-md-6 map">
+          <div id="googleMap" style="width:100%;height:370px;"></div>
       </div>
 
     </div>
