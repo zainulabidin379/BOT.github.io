@@ -152,7 +152,7 @@ body{
 .contact-info .fa{
   font-size: 20px;
   margin: 10px;
-  color: #FF69B4;
+  color: #DC171D;
   font-weight: bold;
   transition: transform .6s ease;
 }
@@ -163,8 +163,8 @@ body{
 
 .contact-info .fa-facebook-f{
   font-size: 25px;
-  color: #FF69B4;
-  border: 2px solid #FF69B4;
+  color: #DC171D;
+  border: 2px solid #DC171D;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 0 15px;
@@ -172,8 +172,8 @@ body{
 
 .contact-info .fa-instagram{
   font-size: 25px;
-  color: #FF69B4;
-  border: 2px solid #FF69B4;
+  color: #DC171D;
+  border: 2px solid #DC171D;
   padding: 5px 8px;
   border-radius: 8px;
   margin: 0 15px;
@@ -181,8 +181,8 @@ body{
 
 .contact-info .fa-whatsapp{
   font-size: 25px;
-  color: #FF69B4;
-  border: 2px solid #FF69B4;
+  color: #DC171D;
+  border: 2px solid #DC171D;
   padding: 5px 8px;
   border-radius: 8px;
   margin: 0 15px;
