@@ -54,6 +54,10 @@ body{
 
 }
 
+.nav .nav-links .active{
+  color: #7f0000;
+}
+
 .nav #nav-check {
   display: none;
 }
@@ -68,7 +72,7 @@ body{
   opacity: 0;
 }
 
-@media (max-width:900px) {
+@media (max-width:1100px) {
   .nav .nav-btn {
     display: inline-block;
     position: absolute;
@@ -119,6 +123,35 @@ body{
   }
   .nav #nav-check:checked ~ #hiddenbtn{
     display: block;
+  }
+}
+
+.nav #profile a{
+  padding: 8px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 700;
+  background: #222;
+  border-radius: 10px;
+  line-height: 35px;
+  margin: 5px 15px 5px 0;
+}
+
+.nav #profile a:hover{
+  border-radius: 8px;
+  color: #7f0000;
+  box-shadow: 0 0 8px #fff,
+              0 0 8px #fff;
+}
+
+@media (max-width:1100px){
+  .nav #profile{
+    position: absolute;
+    right: 50px;
   }
 }
 
@@ -179,6 +212,26 @@ body{
 #main_sect .container .btn:hover{
   background: #fff;
   color: #7f0000;
+}
+
+.visitor_counter{
+  margin-top: 50px;
+}
+
+.visitor_counter h3{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: underline #7f0000 dashed;
+}
+
+.visitor_counter h4{
+  color: #7f0000;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 #footer{

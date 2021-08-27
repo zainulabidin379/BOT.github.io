@@ -11,14 +11,10 @@
 		$headers="From: lyricshunt47@gmail.com";
 
 		if(mail($to, $subject, $message, $headers)){
-			echo '<script language="javascript">';
-			echo 'alert("<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>")';
-			echo '</script>';
+			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
 		}
 		else{
-			echo '<script language="javascript">';
-			echo 'alert("Something went wrong! Please try again")';
-			echo '</script>';
+			echo "Something went wrong! Please try again";
 		}
 	}
 ?>
